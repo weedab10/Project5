@@ -87,5 +87,20 @@ input:checked + .slider::before {
 .card {
     display: flex;
     flex-direction: row;
-   
+    height: 539.54px;
+}
+
+.project-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .project-section {
+        flex-direction: column;
+    }
+    
 }
